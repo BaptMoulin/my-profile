@@ -1,0 +1,93 @@
+  
+body{
+	background: #F7F9FC;
+	color: #000000;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: 250;
+	width: 900px;
+  margin: 40px auto;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #0A6DAA;
+    font-size: 32px;
+    font-weight: 900;
+
+    
+}
+
+h2{
+	color: #0A6DAA;
+    font-size: 30px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 600;
+	font-size: 16 px;
+}
+
+a:hover {
+	color: white;
+}
+
+.img-circle{
+	border-radius:50%;
+}
+
+.btn-blue {
+	background-color: #2CBEFF;
+	color:white;
+	padding:15px 20px;
+	border-radius:4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color:white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.list-inline li{
+	display:inline-blockpadding:10px;
+}
+
+.list-inline i{
+font-size:50px;
+color: black;
+}
+
+.list-inline i:hover{
+color: grey;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+#introduction p {
+	margin-bottom: 40px;
+}
